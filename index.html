@@ -10,8 +10,13 @@
     <div class="game-container">
         <canvas id="gameCanvas"></canvas>
         <div class="controls">
-            <p>使用鼠标移动控制角色，点击鼠标左键跳跃</p>
-            <p>得分: <span id="score">0</span></p>
+            <p>使用鼠标移动控制角色，点击鼠标左键跳跃，右键发射子弹</p>
+            <p>关卡: <span id="level">1</span> | 得分: <span id="score">0</span></p>
+        </div>
+        <div id="winScreen" class="win-screen">
+            <h2>恭喜通关！</h2>
+            <p>最终得分: <span id="finalScore">0</span></p>
+            <button id="restartButton">重新开始</button>
         </div>
     </div>
     <script src="game.js"></script>
