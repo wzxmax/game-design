@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #87CEEB;
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+}
+
+.game-container {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+#gameCanvas {
+    border: 4px solid #000;
+    background-color: #5C94FC;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+
+.controls {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    border-radius: 5px;
+} 
